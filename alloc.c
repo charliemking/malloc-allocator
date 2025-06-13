@@ -1,5 +1,5 @@
-// A segregated storage memory allocator.  Complete the code required in the functions below
-// to implement a segregated memory allocator.
+// Completed the code required in the functions below to implement a segregated memory allocator.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
