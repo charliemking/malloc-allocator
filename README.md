@@ -6,7 +6,7 @@ This project implements a custom dynamic memory allocator in C as a drop-in repl
 
 ## Features
 
-- `myAlloc(size_t size)` and `myFree(void *ptr)` mimic standard memory allocation behavior
+- `my_alloc()` and `my_free()` mimic standard memory allocation behavior
 - Segregated free lists for efficient management of small allocations
 - Slab allocator design with fixed-size bins (8–64 bytes)
 - Heap growth is capped to encourage tight memory discipline
