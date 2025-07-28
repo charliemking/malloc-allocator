@@ -15,8 +15,10 @@ This project implements a custom dynamic memory allocator in C as a drop-in repl
 
 ## File Structure
 
+```
 malloc-allocator/
-├── alloc.c # Core implementation of myAlloc/myFree
-├── alloc.h # Interface
-├── t.txt # Test cases for validation
+├── alloc.c      # Core implementation of my_alloc/my_free
+├── alloc.h      # Interface definition
+├── test.c       # Test cases for allocator behavior
 └── README.md
+```
